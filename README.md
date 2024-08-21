@@ -44,7 +44,7 @@ cd ExpenseManager_app
 
 yarn install
 
-# or
+ or
 
 npm install
 
@@ -53,7 +53,7 @@ Start the development server with hot reload at http://localhost:4200.
 
 yarn start
 
-# or
+ or
 
 npm start
 
@@ -85,7 +85,7 @@ To run the unit tests and watch for changes:
 ```bash
 yarn test
 
-# or
+ or
 
 npm test
 
