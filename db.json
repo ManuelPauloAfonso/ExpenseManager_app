@@ -1,0 +1,256 @@
+{
+  "expenses": [
+    {
+      "id": 1,
+      "description": "Aluguel",
+      "amount": 1200.0,
+      "category": "Moradia",
+      "date": "2024-07-15"
+    },
+    {
+      "id": 2,
+      "description": "Supermercado",
+      "amount": 250.0,
+      "category": "Alimentação",
+      "date": "2024-07-16"
+    },
+    {
+      "id": 3,
+      "description": "Combustível",
+      "amount": 80.0,
+      "category": "Transporte",
+      "date": "2024-07-16"
+    },
+    {
+      "id": 4,
+      "description": "Restaurante",
+      "amount": 100.0,
+      "category": "Alimentação",
+      "date": "2024-07-17"
+    },
+    {
+      "id": 5,
+      "description": "Netflix",
+      "amount": 25.9,
+      "category": "Entretenimento",
+      "date": "2024-07-17"
+    },
+    {
+      "id": 6,
+      "description": "Academia",
+      "amount": 70.0,
+      "category": "Saúde",
+      "date": "2024-07-18"
+    },
+    {
+      "id": 7,
+      "description": "Telefone",
+      "amount": 50.0,
+      "category": "Comunicação",
+      "date": "2024-07-18"
+    },
+    {
+      "id": 8,
+      "description": "Roupas",
+      "amount": 150.0,
+      "category": "Moda",
+      "date": "2024-07-19"
+    },
+    {
+      "id": 9,
+      "description": "Livros",
+      "amount": 45.5,
+      "category": "Educação",
+      "date": "2024-07-19"
+    },
+    {
+      "id": 10,
+      "description": "Cinema",
+      "amount": 30.0,
+      "category": "Entretenimento",
+      "date": "2024-07-20"
+    },
+    {
+      "id": 11,
+      "description": "Impostos",
+      "amount": 500.0,
+      "category": "Financeiro",
+      "date": "2024-07-20"
+    },
+    {
+      "id": 12,
+      "description": "Seguro do carro",
+      "amount": 200.0,
+      "category": "Transporte",
+      "date": "2024-07-21"
+    },
+    {
+      "id": 13,
+      "description": "Eletricidade",
+      "amount": 120.0,
+      "category": "Moradia",
+      "date": "2024-07-21"
+    },
+    {
+      "id": 14,
+      "description": "Água",
+      "amount": 50.0,
+      "category": "Moradia",
+      "date": "2024-07-22"
+    },
+    {
+      "id": 15,
+      "description": "Manutenção do computador",
+      "amount": 80.0,
+      "category": "Tecnologia",
+      "date": "2024-07-22"
+    },
+    {
+      "id": 16,
+      "description": "Taxa bancária",
+      "amount": 20.0,
+      "category": "Financeiro",
+      "date": "2024-07-23"
+    },
+    {
+      "id": 17,
+      "description": "Almoço de negócios",
+      "amount": 90.0,
+      "category": "Negócios",
+      "date": "2024-07-23"
+    },
+    {
+      "id": 18,
+      "description": "Presente",
+      "amount": 40.0,
+      "category": "Pessoal",
+      "date": "2024-07-24"
+    },
+    {
+      "id": 19,
+      "description": "Consultório médico",
+      "amount": 150.0,
+      "category": "Saúde",
+      "date": "2024-07-24"
+    },
+    {
+      "id": 20,
+      "description": "Internet",
+      "amount": 70.0,
+      "category": "Comunicação",
+      "date": "2024-07-25"
+    }
+  ],
+  "income": [
+    {
+      "id": 1,
+      "description": "Salário",
+      "amount": 3000.0,
+      "source": "Empresa X",
+      "date": "2024-07-01"
+    },
+    {
+      "id": 2,
+      "description": "Bônus",
+      "amount": 500.0,
+      "source": "Empresa X",
+      "date": "2024-07-15"
+    },
+    {
+      "id": 3,
+      "description": "Freelance",
+      "amount": 800.0,
+      "source": "Cliente Y",
+      "date": "2024-07-20"
+    },
+    {
+      "id": 4,
+      "description": "Investimentos",
+      "amount": 200.0,
+      "source": "Corretora Z",
+      "date": "2024-07-22"
+    },
+    {
+      "id": 5,
+      "description": "Reembolso",
+      "amount": 100.0,
+      "source": "Despesas médicas",
+      "date": "2024-07-25"
+    },
+    {
+      "id": 6,
+      "description": "Venda de pertences",
+      "amount": 150.0,
+      "source": "Particular",
+      "date": "2024-07-26"
+    },
+    {
+      "id": 7,
+      "description": "Dividendos",
+      "amount": 50.0,
+      "source": "Empresa A",
+      "date": "2024-07-28"
+    },
+    {
+      "id": 8,
+      "description": "Prêmio",
+      "amount": 300.0,
+      "source": "Concurso B",
+      "date": "2024-07-30"
+    },
+    {
+      "id": 9,
+      "description": "Aluguel de imóvel",
+      "amount": 600.0,
+      "source": "Inquilino C",
+      "date": "2024-07-31"
+    },
+    {
+      "id": 10,
+      "description": "Rendimentos de aplicações",
+      "amount": 400.0,
+      "source": "Investimentos",
+      "date": "2024-07-31"
+    },
+    {
+      "id": 11,
+      "description": "Consultoria",
+      "amount": 1200.0,
+      "source": "Cliente D",
+      "date": "2024-08-01"
+    },
+    {
+      "id": 12,
+      "description": "Venda de veículo",
+      "amount": 3500.0,
+      "source": "Particular",
+      "date": "2024-08-02"
+    },
+    {
+      "id": 13,
+      "description": "Premiação",
+      "amount": 1000.0,
+      "source": "Competição E",
+      "date": "2024-08-03"
+    },
+    {
+      "id": 14,
+      "description": "Doação",
+      "amount": 50.0,
+      "source": "Ong F",
+      "date": "2024-08-04"
+    },
+    {
+      "id": 15,
+      "description": "Restituição de imposto",
+      "amount": 300.0,
+      "source": "Receita Federal",
+      "date": "2024-08-05"
+    }
+  ],
+  "totals": {
+    "totalIncome": 10950.0,
+    "totalExpenses": 5071.4,
+    "balance": 5878.6
+  }
+}

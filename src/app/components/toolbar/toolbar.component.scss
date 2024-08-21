@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.active {
+  color: red;
+  transition: 1s;
+  zoom: 1;
+}
+
+.btn-despesas,
+.btn-receitas {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-despesas:hover,
+.btn-receitas:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}

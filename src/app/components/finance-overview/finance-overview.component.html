@@ -1,0 +1,30 @@
+<div class="container-finance">
+  <div *ngIf="totalReceita" class="container-card">
+    <div class="card-item">
+      <img
+        src="../../../assets/icn resize icn-md.png"
+        alt="imagem de um Logotipo do Angular"
+      />
+      <h2>Total Income</h2>
+      <p>{{ totalReceita?.totalIncome | currency : "EUR" }}</p>
+    </div>
+
+    <div class="card-item">
+      <img
+        src="../../../assets/icn resize icn-md.png"
+        alt="imagem de um Logotipo do Angular"
+      />
+      <h2>Total Expenses</h2>
+      <p>{{ totalReceita?.totalExpenses | currency : "EUR" }}</p>
+    </div>
+
+    <div class="card-item">
+      <img
+        src="../../../assets/icn resize icn-md.png"
+        alt="imagem de um Logotipo do Angular"
+      />
+      <h2>Balance Total</h2>
+      <p>{{ totalReceita?.balance | currency : "EUR" }}</p>
+    </div>
+  </div>
+</div>

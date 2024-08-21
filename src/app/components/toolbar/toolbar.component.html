@@ -1,0 +1,18 @@
+<header>
+  <img
+    src="../../../assets/SHOP.CO.svg"
+    alt="imagem de um Logotipo do Angular"
+  />
+  <nav>
+    <ul>
+      <li><a routerLink="/dashboard" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/novo" routerLinkActive="active">Sobre</a></li>
+      <li><a routerLink="/Produtos" routerLinkActive="active">Produtos</a></li>
+      <li>
+        <button mat-button (click)="openDialog()" class="btn-despesas">
+          Adicionar Despesas
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>

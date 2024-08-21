@@ -1,0 +1,17 @@
+<div class="main-wrapper">
+  <div class="expenses-wrapper">
+    @for(expense of expenses; track expense.id){
+      <div class="expense-item">
+        {{ expense.description}}
+      </div>
+    }
+  </div>
+
+  <div class="income-wrapper">
+    @for(income of incomes; track income.id){
+      <div class="income-item">
+        {{ income.description }}
+      </div>
+    }
+  </div>
+</div>

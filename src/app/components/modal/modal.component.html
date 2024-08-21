@@ -1,0 +1,38 @@
+<h2>Adicionar Despesa</h2>
+<form>
+  <div>
+    <label for="description">Descrição</label>
+    <input
+      id="description"
+      type="text"
+      formControlName="description"
+      placeholder="Ex: Internet"
+    />
+  </div>
+  <div>
+    <label for="amount">Valor</label>
+    <input
+      id="amount"
+      type="number"
+      formControlName="amount"
+      placeholder="Ex: 70.0"
+    />
+  </div>
+  <div>
+    <label for="category">Categoria</label>
+    <select id="category" formControlName="category">
+      <option value="Comunicação">Comunicação</option>
+      <option value="Alimentação">Alimentação</option>
+      <option value="Transporte">Transporte</option>
+      <option value="Educação">Educação</option>
+    </select>
+  </div>
+  <div>
+    <label for="date">Data</label>
+    <input id="date" type="date" formControlName="date" />
+  </div>
+  <div>
+    <button type="button">Cancelar</button>
+    <button type="submit">Adicionar</button>
+  </div>
+</form>
